@@ -8,8 +8,8 @@ EXPOSE 443
 FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
-COPY ["adminpanel/adminpanel.csproj", "adminpanel/"]
-RUN dotnet restore "./adminpanel/./adminpanel.csproj"
+COPY ["adminpanel.csproj", "./"]
+RUN dotnet restore "./adminpanel.csproj"
 COPY . .
 WORKDIR "/src/adminpanel"
 RUN dotnet build "./adminpanel.csproj" -c $BUILD_CONFIGURATION -o /app/build
