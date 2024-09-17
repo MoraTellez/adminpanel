@@ -1,14 +1,7 @@
-C:\Users\ramse\OneDrive\Documentos\internship\tasks\4th\adminpanel\adminpanel\obj\Debug\net7.0\adminpanel.csproj.AssemblyReference.cache
-C:\Users\ramse\OneDrive\Documentos\internship\tasks\4th\adminpanel\adminpanel\obj\Debug\net7.0\adminpanel.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\ramse\OneDrive\Documentos\internship\tasks\4th\adminpanel\adminpanel\obj\Debug\net7.0\adminpanel.AssemblyInfoInputs.cache
-C:\Users\ramse\OneDrive\Documentos\internship\tasks\4th\adminpanel\adminpanel\obj\Debug\net7.0\adminpanel.AssemblyInfo.cs
-C:\Users\ramse\OneDrive\Documentos\internship\tasks\4th\adminpanel\adminpanel\obj\Debug\net7.0\adminpanel.csproj.CoreCompileInputs.cache
-C:\Users\ramse\OneDrive\Documentos\internship\tasks\4th\adminpanel\adminpanel\obj\Debug\net7.0\adminpanel.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\ramse\OneDrive\Documentos\internship\tasks\4th\adminpanel\adminpanel\obj\Debug\net7.0\adminpanel.RazorAssemblyInfo.cache
-C:\Users\ramse\OneDrive\Documentos\internship\tasks\4th\adminpanel\adminpanel\obj\Debug\net7.0\adminpanel.RazorAssemblyInfo.cs
 C:\Users\ramse\OneDrive\Documentos\internship\tasks\4th\adminpanel\adminpanel\bin\Debug\net7.0\appsettings.Development.json
 C:\Users\ramse\OneDrive\Documentos\internship\tasks\4th\adminpanel\adminpanel\bin\Debug\net7.0\appsettings.json
 C:\Users\ramse\OneDrive\Documentos\internship\tasks\4th\adminpanel\adminpanel\bin\Debug\net7.0\adminpanel.staticwebassets.runtime.json
+C:\Users\ramse\OneDrive\Documentos\internship\tasks\4th\adminpanel\adminpanel\bin\Debug\net7.0\task4.db
 C:\Users\ramse\OneDrive\Documentos\internship\tasks\4th\adminpanel\adminpanel\bin\Debug\net7.0\adminpanel.exe
 C:\Users\ramse\OneDrive\Documentos\internship\tasks\4th\adminpanel\adminpanel\bin\Debug\net7.0\adminpanel.deps.json
 C:\Users\ramse\OneDrive\Documentos\internship\tasks\4th\adminpanel\adminpanel\bin\Debug\net7.0\adminpanel.runtimeconfig.json
@@ -56,6 +49,15 @@ C:\Users\ramse\OneDrive\Documentos\internship\tasks\4th\adminpanel\adminpanel\bi
 C:\Users\ramse\OneDrive\Documentos\internship\tasks\4th\adminpanel\adminpanel\bin\Debug\net7.0\runtimes\win-arm64\native\e_sqlite3.dll
 C:\Users\ramse\OneDrive\Documentos\internship\tasks\4th\adminpanel\adminpanel\bin\Debug\net7.0\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\ramse\OneDrive\Documentos\internship\tasks\4th\adminpanel\adminpanel\bin\Debug\net7.0\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\ramse\OneDrive\Documentos\internship\tasks\4th\adminpanel\adminpanel\obj\Debug\net7.0\adminpanel.csproj.AssemblyReference.cache
+C:\Users\ramse\OneDrive\Documentos\internship\tasks\4th\adminpanel\adminpanel\obj\Debug\net7.0\adminpanel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ramse\OneDrive\Documentos\internship\tasks\4th\adminpanel\adminpanel\obj\Debug\net7.0\adminpanel.AssemblyInfoInputs.cache
+C:\Users\ramse\OneDrive\Documentos\internship\tasks\4th\adminpanel\adminpanel\obj\Debug\net7.0\adminpanel.AssemblyInfo.cs
+C:\Users\ramse\OneDrive\Documentos\internship\tasks\4th\adminpanel\adminpanel\obj\Debug\net7.0\adminpanel.csproj.CoreCompileInputs.cache
+C:\Users\ramse\OneDrive\Documentos\internship\tasks\4th\adminpanel\adminpanel\obj\Debug\net7.0\adminpanel.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ramse\OneDrive\Documentos\internship\tasks\4th\adminpanel\adminpanel\obj\Debug\net7.0\adminpanel.RazorAssemblyInfo.cache
+C:\Users\ramse\OneDrive\Documentos\internship\tasks\4th\adminpanel\adminpanel\obj\Debug\net7.0\adminpanel.RazorAssemblyInfo.cs
+C:\Users\ramse\OneDrive\Documentos\internship\tasks\4th\adminpanel\adminpanel\obj\Debug\net7.0\adminpanel.sourcelink.json
 C:\Users\ramse\OneDrive\Documentos\internship\tasks\4th\adminpanel\adminpanel\obj\Debug\net7.0\staticwebassets.build.json
 C:\Users\ramse\OneDrive\Documentos\internship\tasks\4th\adminpanel\adminpanel\obj\Debug\net7.0\staticwebassets.development.json
 C:\Users\ramse\OneDrive\Documentos\internship\tasks\4th\adminpanel\adminpanel\obj\Debug\net7.0\staticwebassets\msbuild.adminpanel.Microsoft.AspNetCore.StaticWebAssets.props
@@ -72,4 +74,3 @@ C:\Users\ramse\OneDrive\Documentos\internship\tasks\4th\adminpanel\adminpanel\ob
 C:\Users\ramse\OneDrive\Documentos\internship\tasks\4th\adminpanel\adminpanel\obj\Debug\net7.0\adminpanel.pdb
 C:\Users\ramse\OneDrive\Documentos\internship\tasks\4th\adminpanel\adminpanel\obj\Debug\net7.0\adminpanel.genruntimeconfig.cache
 C:\Users\ramse\OneDrive\Documentos\internship\tasks\4th\adminpanel\adminpanel\obj\Debug\net7.0\ref\adminpanel.dll
-C:\Users\ramse\OneDrive\Documentos\internship\tasks\4th\adminpanel\adminpanel\bin\Debug\net7.0\task4.db

@@ -11,8 +11,8 @@ WORKDIR /src
 COPY ["adminpanel.csproj", "./"]
 RUN dotnet restore "./adminpanel.csproj"
 COPY . .
-WORKDIR "/src/adminpanel"
-RUN dotnet build "./adminpanel.csproj" -c $BUILD_CONFIGURATION -o /app/build
+WORKDIR "/src"
+RUN dotnet build "adminpanel.csproj" -c $BUILD_CONFIGURATION -o /app/build
 
 FROM build AS publish
 ARG BUILD_CONFIGURATION=Release
