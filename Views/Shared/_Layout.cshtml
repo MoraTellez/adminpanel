@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - task4</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/task4.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="navbarColor01">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">
+                                Hello <span class="text-info">@User.Identity.Name</span>!
+                                <span class="visually-hidden">(current)</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" asp-action="LogOut" asp-controller="Admin">
+                        <button class="btn btn-danger my-2 my-sm-0" type="submit">Log Out</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container mt-5">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/main.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

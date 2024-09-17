@@ -1,0 +1,59 @@
+﻿@model List<adminpanel.Models.ApplicationUser>
+
+@{
+    Layout = "_Layout";
+}
+
+<partial name="Components/_ToolBar.cshtml" />
+
+<div class="row justify-content-center">
+    <div class="col-12 col-md-1 d-flex justify-content-center align-items-center">
+        <b>Select</b>
+    </div>
+    <div class="col-12 col-md-2 d-flex justify-content-center align-items-center">
+        <b>Name</b>
+    </div>
+    <div class="col-12 col-md-3 d-flex justify-content-center align-items-center">
+        <b>Email</b>
+    </div>
+    <div class="col-12 col-md-2 d-flex justify-content-center align-items-center">
+        <b>Last login</b>
+    </div>
+    <div class="col-12 col-md-2 d-flex justify-content-center align-items-center">
+        <b>Registration</b>
+    </div>
+    <div class="col-12 col-md-2 d-flex justify-content-center align-items-center">
+        <b>Status</b>
+    </div>
+</div>
+
+<div class="usersContainer">
+
+    @foreach (var u in Model)
+    {
+        <div class="row justify-content-center border-top">
+            <div class="col-12 col-md-1 d-flex justify-content-center align-items-center">
+                <input value="@u.Id" type="checkbox" class="form-check-input border-primary" />
+            </div>
+            <div class="col-12 col-md-2 d-flex justify-content-center align-items-center py-0 py-md-3">
+                @u.UserName
+            </div>
+            <div class="col-12 col-md-3 d-flex justify-content-center align-items-center py-0 py-md-3">
+                @u.Email
+            </div>
+            <div class="col-12 col-md-2 d-flex justify-content-center align-items-center py-0 py-md-3">
+                @u.LastLogin
+            </div>
+            <div class="col-12 col-md-2 d-flex justify-content-center align-items-center py-0 py-md-3">
+                @u.Registration
+            </div>
+            <div class="col-12 col-md-2 d-flex justify-content-center align-items-center py-0 py-md-3">
+                @u.Status
+            </div>
+        </div>
+    }
+</div>
+
+<script type="text/javascript">
+    var url = '@Url.Action("Index", "Admin")'
+</script>
