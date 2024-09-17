@@ -1,7 +1,13 @@
 ﻿document.addEventListener('DOMContentLoaded', function () {
+    var selectAllCheckbox = document.getElementById('selectAll');
+    selectAllCheckbox.addEventListener('change', function () {
+        var checkboxes = document.querySelectorAll('.usersContainer .form-check-input');
+        for (var checkbox of checkboxes) {
+            checkbox.checked = selectAllCheckbox.checked;
+        }
+    });
+
     const toaster = new ToasterUi();
-
-
 
     function handleButtonClick(event) {
         var method = event.target.getAttribute('data-method');
@@ -36,11 +42,18 @@
                 return response.json();
             })
             .then(function (users) {
-                updateUsersTable(users.result);
-                toaster.addToast("Users updated successfully.", "success", { styles: { background:'#4bbf73' }});
+                if (users.redirect) {
+                    location.reload();
+                } else {
+                    if (selectAllCheckbox.checked)selectAllCheckbox.checked = false;
+                        
+                    updateUsersTable(users.result);
+                    toaster.addToast("Users updated successfully.", "success", { styles: { background: '#4bbf73' } });
+                }
             })
             .catch(function (error) {
-                toaster.addToast("An error ocurred.", "error");
+                console.log(error)
+                toaster.addToast("An error ocurreeeerrrd.", "error");
             });
     }
 
@@ -80,4 +93,6 @@
     buttons.forEach(function (button) {
         button.addEventListener('click', handleButtonClick);
     });
+
+
 });

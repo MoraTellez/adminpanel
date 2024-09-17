@@ -176,7 +176,9 @@ namespace adminpanel.Controllers
 
             if (currentUser is null || currentUser.status == SD.Status.Blocked.ToString())
             {
-                return RedirectToAction("LogOut");
+                await _signInManager.SignOutAsync();
+
+                return Json(new { redirect = true });
             }
 
             return Json(new { success = true, result });
